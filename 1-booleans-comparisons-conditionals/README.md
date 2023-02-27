@@ -26,19 +26,19 @@
 
    ```js
    12 ??? 78
-   // => true
+   // => true     12 < 78
 
    24 ??? 16
-   // => false
+   // => false 24 < 16
 
    45 !== ???
-   // => true
+   // => true 45 !== 4
 
    "45" ??? 45
-   // => false
+   // => false 45 !===45
 
    "6" ??? "six"
-   // => true
+   // => true 6 === six
    ```
 
 4. Write a function `oldEnoughToDrink` that takes an `age` as an argument and
@@ -83,22 +83,22 @@
 
    ```js
    106 ??? 12
-   // => false
+   // => false 106 < 12
 
    "wiz" ??? "wiz"
-   // => true
+   // => true wiz == wiz
 
    7 * 7  ??? 49
-   // => true
+   // => true 7 * 7 == 49
 
    12 ??? (24 / 2)
-   // => false
+   // => false 12 !== (24 / 2)
 
    (20 % 2) <= ???
-   // => true
+   // => true  (20 % 2) <= 40
 
    (9 / 3) + (5 * 5) === ???
-   // => true
+   // => true  (9 / 3) + (5 * 5) === 28
    ```
 
 2. Write the following functions that each accept a single number as an

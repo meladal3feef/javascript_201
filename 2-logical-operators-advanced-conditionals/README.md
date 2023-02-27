@@ -9,23 +9,25 @@
 #### Logical Operators
 
 1. Is the `!` operator a *unary* operator, or *binary* operator?
-
+unary
 2. Evaluate each of the following expressions first on a whiteboard, and then in
    a console:
 
    ```js
-   !(2 >= 2)
-   !(4 === 4)
-   !(5 !== 5)
+   !(2 >= 2) false
+   !(4 === 4) false
+   !(5 !== 5) true
    ```
+
 
 3. Evaluate each of the following expressions first on a whiteboard, and then in a
    console:
 
    ```js
-   1 > 2 || 2 > 2 || 3 > 2
-   5 < 5 || 75 < 74
+   1 > 2 || 2 > 2 || 3 > 2 true
+   5 < 5 || 75 < 74 false
    ```
+
 
 #### Conditionals: `else if` & `else`
 
@@ -33,11 +35,11 @@
    `bouncer` (from the previous module), is in charge of; thus, management has
    decided to add him to the "blacklist" -- modify the `bouncer` function from
    the previous section so that the person named "Joe" is rejected with an
-   appropriate message, regardless of his age.
+   appropriate message, regardless of his age. else
 
 2. Write a function called `scoreToGrade` that accepts a *number* as a parameter
    and returns a *string* representing a letter grade corresponding to that
-   score.
+   score. else if
 
    For example, the following grades should be returned given these scores:
 
